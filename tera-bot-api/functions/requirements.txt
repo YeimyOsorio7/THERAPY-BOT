@@ -1,0 +1,13 @@
+firebase_functions
+firebase_admin
+openai-agents
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+uvicorn[standard]
+python-dotenv
+requests
+langchain
+langchain-core
+# Dependencias para el Agente RAG
+chromadb

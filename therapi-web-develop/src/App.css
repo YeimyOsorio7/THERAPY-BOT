@@ -1,0 +1,24 @@
+/* Estilos para el contenedor principal de la aplicación */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en una columna */
+  min-height: 100vh; /* Asegura que la app ocupe toda la altura de la pantalla */
+  background-color: #f0f2f5; /* Color de fondo suave */
+}
+
+/* Estilos para el encabezado */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Estilos para el contenedor del chatbot */
+.chatbot-wrapper {
+  flex-grow: 1; /* Permite que esta sección crezca y ocupe el espacio disponible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
